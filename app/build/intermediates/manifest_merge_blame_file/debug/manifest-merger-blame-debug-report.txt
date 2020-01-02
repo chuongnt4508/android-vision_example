@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ezequiel.camera2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:5:5-65
+11-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <uses-feature
+14-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:8:5-10:35
+15        android:name="android.hardware.camera"
+15-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:9:9-47
+16        android:required="true" />
+16-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:10:9-32
+17    <uses-feature
+17-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:11:5-13:35
+18        android:name="android.hardware.camera.front"
+18-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:12:9-53
+19        android:required="true" />
+19-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:13:9-32
+20    <uses-feature android:name="android.hardware.camera2.full" />
+20-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:14:5-66
+20-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:14:19-63
+21
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:22:5-79
+22-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:22:22-76
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:23:5-67
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:23:22-64
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:24:5-68
+24-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+26
+27    <application
+27-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:16:5-32:19
+28        android:allowBackup="true"
+28-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:17:9-35
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\df2ac4fe6b88cbdd1c862077d2fdf1ec\core-1.1.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:18:9-43
+32        android:label="@string/app_name"
+32-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:19:9-41
+33        android:supportsRtl="true"
+33-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:20:9-35
+34        android:testOnly="true"
+35        android:theme="@style/AppTheme" >
+35-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:21:9-40
+36        <activity android:name="com.example.ezequiel.camera2.Main2Activity" />
+36-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:22:9-60
+36-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:22:19-48
+37        <activity
+37-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:23:9-31:20
+38            android:name="com.example.ezequiel.camera2.MainActivity"
+38-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:24:13-41
+39            android:screenOrientation="portrait" >
+39-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:25:13-49
+40            <intent-filter>
+40-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:26:13-30:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:27:17-69
+41-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:27:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:29:17-77
+43-->D:\Android WSP\orthers\Camera2Vision\Camera2\app\src\main\AndroidManifest.xml:29:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\36a20075fa04ddd219c65a71d72c2088\firebase-ml-vision-24.0.1\AndroidManifest.xml:9:9-15:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\36a20075fa04ddd219c65a71d72c2088\firebase-ml-vision-24.0.1\AndroidManifest.xml:10:13-84
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\36a20075fa04ddd219c65a71d72c2088\firebase-ml-vision-24.0.1\AndroidManifest.xml:11:13-37
+50            <meta-data
+50-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\36a20075fa04ddd219c65a71d72c2088\firebase-ml-vision-24.0.1\AndroidManifest.xml:12:13-14:85
+51                android:name="com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar"
+51-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\36a20075fa04ddd219c65a71d72c2088\firebase-ml-vision-24.0.1\AndroidManifest.xml:13:17-108
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\36a20075fa04ddd219c65a71d72c2088\firebase-ml-vision-24.0.1\AndroidManifest.xml:14:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ead3fab86aea1331a229248f655981c5\firebase-ml-common-22.0.1\AndroidManifest.xml:11:13-13:85
+54                android:name="com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar"
+54-->[com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ead3fab86aea1331a229248f655981c5\firebase-ml-common-22.0.1\AndroidManifest.xml:12:17-117
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-ml-common:22.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ead3fab86aea1331a229248f655981c5\firebase-ml-common-22.0.1\AndroidManifest.xml:13:17-82
+56            <meta-data
+56-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+57                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+57-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+59        </service>
+60
+61        <receiver
+61-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+62            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+62-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+63            android:exported="true"
+63-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+64            android:permission="com.google.android.c2dm.permission.SEND" >
+64-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+65            <intent-filter>
+65-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+66                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+66-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+66-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4f33a92717c11fb333ac667f0749b1a5\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+67            </intent-filter>
+68        </receiver>
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bc16083ed528e87b42564933ce53a5d1\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bc16083ed528e87b42564933ce53a5d1\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bc16083ed528e87b42564933ce53a5d1\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bc16083ed528e87b42564933ce53a5d1\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+74
+75        <provider
+75-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\38a7609686314faa72e6fb7aa550380e\firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+76            android:name="com.google.firebase.provider.FirebaseInitProvider"
+76-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\38a7609686314faa72e6fb7aa550380e\firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+77            android:authorities="com.example.ezequiel.camera2.firebaseinitprovider"
+77-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\38a7609686314faa72e6fb7aa550380e\firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+78            android:exported="false"
+78-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\38a7609686314faa72e6fb7aa550380e\firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+79            android:initOrder="100" />
+79-->[com.google.firebase:firebase-common:19.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\38a7609686314faa72e6fb7aa550380e\firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\24342a07aae3d1a0fde91c691f52af92\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\24342a07aae3d1a0fde91c691f52af92\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\24342a07aae3d1a0fde91c691f52af92\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84    </application>
+85
+86</manifest>
